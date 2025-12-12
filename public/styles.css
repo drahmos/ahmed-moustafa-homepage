@@ -17,6 +17,16 @@ body{
 .container{max-width:900px;margin:48px auto;padding:28px;background:rgba(255,255,255,0.02);border-radius:12px}
 .site-header h1{margin:0;font-size:1.9rem}
 .subtitle{color:var(--muted);margin:6px 0}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 3px solid var(--accent);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
 .links a{color:var(--accent);text-decoration:none}
 main{margin-top:20px}
 section{padding:14px 0;border-top:1px solid rgba(255,255,255,0.02)}
